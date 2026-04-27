@@ -69,6 +69,12 @@
 			<version>2.2.0</version>
 		</dependency>
 
+		<!-- SECURITY (TE FALTABA ESTO) -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
 		<!-- TESTS -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
