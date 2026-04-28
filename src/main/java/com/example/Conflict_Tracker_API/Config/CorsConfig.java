@@ -14,7 +14,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedOrigins(
-                                "conflict-tracker-fontend-fs1i-joufqam2r-jose-pm-6740s-projects.vercel.app"
+                                "https://conflict-tracker-fontend-fs1i-joufqam2r-jose-pm-6740s-projects.vercel.app"
                         )
                         .allowedMethods("*")
                         .allowedHeaders("*");
